@@ -4,9 +4,13 @@ import Footer from "./Components/Footer/Footer";
 import Food from "./Components/Food/Food";
 import Card from "./Components/Card/Card";
 import Button from "./Components/Button/Button";
+import DoubleClickButton from "./Components/Button/ChangingButton";
+import ClickButton from "./Components/Button/ClickButton";
 import Student from "./Components/Students/Student";
 import UserGreeting from "./Components/UserGreeting/UserGreeting";
-import List from "./Components/List/List";
+//import List from "./Components/List/List";
+import PicButton from "./Components/Button/PicButton";
+
 
 
 
@@ -23,13 +27,12 @@ function App () {
                       {id: 9, name:'corn', calories: 63}, 
                       {id: 10, name:'broccoli', calories: 50},];
     return(<>
-       <List items={fruits} category="Fruts"/>
-       <List items={vegetables} category="Vegetables"/>
+       <Button/> <ClickButton/> <DoubleClickButton/> <br/>
+       <PicButton/>
        <Card/>
        <Card/>
        <Card/>
-       <br></br>
-        <Button/>
+       
         <Header/>
         <Student name="Bob" age={30} isStudent={true}/>
         <Student name="Anna" age={15} isStudent={false}/>
@@ -43,3 +46,7 @@ function App () {
 }
 
 export default App
+
+
+/*   <List items={fruits} category="Fruts"/>
+       <List items={vegetables} category="Vegetables"/>*/

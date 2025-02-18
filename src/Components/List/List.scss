@@ -1,9 +1,28 @@
 .list-category{
-
+    font-size: 1 em;
+    font-weight: bold;
+    max-width: 250px;
+    color: hsl(0, 0%, 20%);
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid rgb(132, 132, 223);
+    border-radius: 2px;
+    background-color: rgb(195, 207, 251);
+    box-shadow: 0 0 10px rgba(123, 16, 217, 0.5), 0 0 20px rgba(123, 16, 217, 0.3), 0 0 30px rgba(123, 16, 217, 0.2);
 }
-
-
-
 .list-items{
-
+    padding: 10px;
+}
+.list-items li{
+    font-size: 1em;
+    max-width: 250px;
+    list-style: none;
+    color: purple;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(216, 223, 249);
+}
+.list-items li:hover{
+    background-color: rgb(172, 188, 247);
+    cursor: pointer;
 }
