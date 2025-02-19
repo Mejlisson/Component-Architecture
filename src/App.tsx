@@ -10,25 +10,18 @@ import Student from "./Components/Students/Student";
 import UserGreeting from "./Components/UserGreeting/UserGreeting";
 //import List from "./Components/List/List";
 import PicButton from "./Components/Button/PicButton";
-
+import  Component1 from "./Components/MoreComponent/Component1";
+import Counter from "./Components/MoreComponent/Counter";
 
 
 
 function App () {
-  const fruits = [{id: 1, name:'apple', calories:95}, 
-                  {id: 2, name:'banana', calories: 45}, 
-                  {id: 3, name:'coconut', calories: 50}, 
-                  {id: 4, name:'pineapple', calories: 277}, 
-                  {id: 5, name:'elderberry', calories: 73},];
-                  
-  const vegetables = [{id: 6, name:'potatoes', calories: 110}, 
-                      {id: 7, name:'celery', calories: 15}, 
-                      {id: 8, name:'carrots', calories: 25}, 
-                      {id: 9, name:'corn', calories: 63}, 
-                      {id: 10, name:'broccoli', calories: 50},];
+  
     return(<>
        <Button/> <ClickButton/> <DoubleClickButton/> <br/>
-       <PicButton/>
+       <PicButton/><br/>
+       <Counter/><br/>
+       <Component1/> 
        <Card/>
        <Card/>
        <Card/>
@@ -48,5 +41,6 @@ function App () {
 export default App
 
 
-/*   <List items={fruits} category="Fruts"/>
+/*  
+<List items={fruits} category="Fruts"/>
        <List items={vegetables} category="Vegetables"/>*/

@@ -3,7 +3,7 @@ import "../Card/Card.scss";
 import SnackCat from "..//../Img/SnackCat.gif";
 
 export default function PicButton() {
-    const handleClick = (e) => e.target.style.display ="rotate(360deg)";
+    const handleClick = (e) => e.target.style.display ="none";
 
     return(
     <div className="card">
